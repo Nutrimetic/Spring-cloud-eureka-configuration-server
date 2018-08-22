@@ -1,6 +1,6 @@
 # Spring-cloud-eureka-configuration-server
 
-Ce projet vise à mettre en place dun serveur de configuration dans une architecture microservice. Pour ce faire, il est nécessaire d'avoir un serviceDiscovery de lancé, plusieurs services ainsi que des clients.
+Ce projet vise à mettre en place un serveur de configuration dans une architecture microservice. Pour ce faire, il est nécessaire d'avoir un serviceDiscovery de lancé, plusieurs services ainsi que des clients.
 
 L'ensemble des fichiers de configuration sont stockés dans un repository sur le git (scf-config-repository-master). Le serveur de configuration est lié a ce repository Git et fournis les fichiers de config en fonction des requetes HTTP recus.
 
