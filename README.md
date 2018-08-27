@@ -3,7 +3,7 @@
 Ce projet vise à mettre en place un serveur de configuration dans une architecture microservice. Pour ce faire, il est nécessaire d'avoir un serviceDiscovery de lancé, plusieurs services ainsi que des clients.
 
 ## Configuration
-L'ensemble des fichiers de configuration sont stockés dans un repository sur le git (scf-config-repository-master). Le serveur de configuration est lié a ce repository Git et fournis les fichiers de config en fonction des requetes HTTP recus.
+L'ensemble des fichiers de configuration sont stockés dans un repository sur le [git](https://github.com/Nutrimetic/scf-config-repository-master). Le serveur de configuration est lié a ce repository Git et fournis les fichiers de config en fonction des requetes HTTP recus.
 
 ### Rest Endpoints
 Il y a 3 paramètres définissant les endpoints d'un serveur de configuration : 
